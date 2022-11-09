@@ -1,6 +1,6 @@
 # Subhaganesh.github.io
 
-This project is all about my DataScience web portfolio, it tells people about my achievements,projects and accomplishments towards DataScience.It was build on visual studio code editor and published through GitHub pages.
+This project was all about my DataScience web portfolio, it tells people about my achievements,projects and accomplishments towards DataScience.It was build on visual studio code editor and published through GitHub pages.
 
 
 ## 
