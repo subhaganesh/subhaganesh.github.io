@@ -231,6 +231,21 @@
     }
   });
 
+   /**
+   * Initialize Swiper for the certificate slider
+   */
+   var swiper = new Swiper('.certificate-slider', {
+    slidesPerView: 1,
+    centeredSlides: true, // Center the slides
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+  });
+  
+  
   /**
    * Testimonials slider
    */
