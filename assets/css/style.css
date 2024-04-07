@@ -1227,3 +1227,36 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*--------------------------------------------------------------
+# background color
+--------------------------------------------------------------*/
+
+/* Dark theme background */
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Dark theme styles for specific elements */
+.section-title h2 {
+  color: #fff; /* Change section title color to white */
+}
+
+.nav-menu li a {
+  color: #fff; /* Change navigation menu link color to white */
+}
+
+.nav-menu li a:hover {
+  color: #aaa; /* Change navigation menu link hover color */
+}
+
+.social-links a {
+  color: #fff; /* Change social media icon color to white */
+}
+
+.social-links a:hover {
+  color: #aaa; /* Change social media icon hover color */
+}
+
+/* Add more styles for other elements as needed */
