@@ -1286,12 +1286,20 @@ body {
 }
 
 /* Add more styles for other elements as needed */
+.facts {
+  background: #fff; /* keep section white */
+  color: #000;
+}
+
 .facts .count-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  min-height: 180px; /* gives each box uniform height */
+  justify-content: center;
+  text-align: center;
+  min-height: 180px;
+  padding: 20px 10px;
+  border-radius: 8px;
   position: relative;
 }
 
@@ -1305,17 +1313,15 @@ body {
   font-size: 36px;
   font-weight: 700;
   color: #000;
+  margin-bottom: 10px;
 }
 
 .facts .count-box .fact-label {
-  margin-top: auto; /* pushes the label to the bottom */
   font-size: 16px;
   font-weight: 600;
   color: #000; /* solid black */
-  position: absolute;
-  bottom: 10px;
-  z-index: 5; /* ensures it appears on top */
-  background-color: rgba(255, 255, 255, 0.9); /* optional - adds slight white background if overlapping */
-  padding: 2px 6px;
-  border-radius: 4px;
+  margin-top: 8px;
+  z-index: 10;
+  position: relative; /* important: removes clipping */
+  background: transparent;
 }
