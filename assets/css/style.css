@@ -1310,8 +1310,12 @@ body {
 .facts .count-box .fact-label {
   margin-top: auto; /* pushes the label to the bottom */
   font-size: 16px;
-  font-weight: 500;
-  color: #000; /* changed from #444 to pure black */
+  font-weight: 600;
+  color: #000; /* solid black */
   position: absolute;
   bottom: 10px;
+  z-index: 5; /* ensures it appears on top */
+  background-color: rgba(255, 255, 255, 0.9); /* optional - adds slight white background if overlapping */
+  padding: 2px 6px;
+  border-radius: 4px;
 }
